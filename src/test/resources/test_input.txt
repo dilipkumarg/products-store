@@ -1,0 +1,16 @@
+signup user normal_user Hyd 2020-05-14
+signup admin admin_user Hyd 2020-05-14 ADMIN
+login admin
+product_add op3 "smart phone" 35000
+product_add op7 "smart phone" 20000
+logout
+login user
+product_list
+cart_add 1
+cart
+cart_add 2
+cart_add 1
+cart
+checkout
+quit
+
